@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@400;600&family=Dancing+Script&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(IMG/body-background.jpg);
+  overflow-x: hidden;
+}
+.navbar .navbar-nav .nav-link {
+  color: black;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: rgb(23, 185, 185);
+  border-bottom: 1px solid rgb(23, 185, 185);
+}
+.navbar .icons {
+  font-size: 20px;
+  color: rgb(23, 185, 185);
+}
+.fashion {
+  color: black;
+  font-family: "Alexandria", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  font-size: xx-large;
+}
+.home {
+  width: 100vw;
+  height: 330px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(IMG/photo_2023-07-05_20-35-46.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.component {
+  padding-top: 90px;
+}
+.home h1 {
+  font-size: 50px;
+  padding-top: 100px;
+}
+.content {
+  width: 100vw;
+  margin-top: 250px;
+  margin-left: 200px;
+}
+.content .card {
+  border: none;
+  text-align: left;
+  padding: 40px;
+}
+
+.content .card .card-text {
+  padding-left: 60px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(32, 131, 148, 0.699);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #10688344;
+}
+
+footer a {
+  color: white;
+}
